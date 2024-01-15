@@ -1,0 +1,11 @@
+Package: CustomBayes
+Title: Bayes Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Siddhesh", "Pujari", role = c("aut", "cre"))
+Description: A collection of useful functions on bayes theorem.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
