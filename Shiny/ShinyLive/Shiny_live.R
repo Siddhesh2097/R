@@ -11,5 +11,5 @@ shinylive::export(
 
 ## with development version of httpuv, run shinylive app locally
 ## remotes::install_github("rstudio/httpuv")
-## trial comment
+
 httpuv::runStaticServer(dir = "Shiny/ShinyLive/Apps", port = 8888)
