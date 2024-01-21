@@ -3,6 +3,7 @@ library(shiny)
 library(ggplot2)
 
 ## base R!s
+dt <- mtcars
 d <- mtcars
 d$car_types <- rownames(d)
 d <- d[,c("car_types","mpg", "cyl", "am", "disp", "wt")]
