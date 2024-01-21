@@ -4,12 +4,12 @@
 ## setwd() command
 
 shinylive::export(
-  appdir = "Shiny/ShinyLive/cars",
-  destdir = "Shiny/ShinyLive/Apps"
+  appdir = "cars",
+  destdir = "docs"
 )
 
 
 ## with development version of httpuv, run shinylive app locally
 ## remotes::install_github("rstudio/httpuv")
 
-httpuv::runStaticServer(dir = "Shiny/ShinyLive/Apps", port = 8888)
+httpuv::runStaticServer(dir = "docs", port = 8888)
